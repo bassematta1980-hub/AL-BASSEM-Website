@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AL.BASSEM | Software & Technology</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+font-family:Arial,sans-serif;
+background:#0b1220;
+color:#fff;
+}
+header{
+display:flex;justify-content:space-between;
+align-items:center;padding:24px 8%;
+border-bottom:1px solid #263247;
+}
+.logo{font-size:25px;font-weight:bold;color:#d6ad59}
+nav a{
+color:#ddd;text-decoration:none;
+margin-left:22px;font-size:14px;
+}
+nav a:hover{color:#d6ad59}
+.hero{
+min-height:80vh;display:flex;
+align-items:center;padding:70px 10%;
+background:radial-gradient(circle at 80% 40%,#1b3049,#0b1220 65%);
+}
+.hero-content{max-width:720px}
+.tag{color:#d6ad59;letter-spacing:4px;font-size:13px}
+h1{font-size:clamp(42px,7vw,76px);margin:25px 0;line-height:1.1}
+h1 span{color:#d6ad59}
+.hero p{color:#b7c1d0;line-height:1.9;font-size:17px}
+.btn{
+display:inline-block;margin-top:30px;
+padding:15px 30px;background:#d6ad59;
+color:#101827;text-decoration:none;
+font-weight:bold;border-radius:5px;
+}
+section{padding:80px 10%}
+.heading{text-align:center;margin-bottom:45px}
+.heading h2{font-size:34px;color:#d6ad59;margin-bottom:15px}
+.heading p,.card p{color:#aeb9c9;line-height:1.8}
+.services{
+display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:22px;
+}
+.card{
+background:#131f31;border:1px solid #28374d;
+padding:30px;border-radius:12px;
+transition:.3s;
+}
+.card:hover{transform:translateY(-7px);border-color:#d6ad59}
+.card h3{color:#d6ad59;margin-bottom:15px}
+.about{text-align:center;background:#101a2a}
+footer{
+text-align:center;padding:30px;
+border-top:1px solid #263247;color:#aeb9c9;
+}
+@media(max-width:650px){
+header{padding:20px 5%;flex-direction:column;gap:18px}
+nav a{margin:0 7px;font-size:12px}
+.hero{padding:65px 7%;min-height:70vh}
+section{padding:65px 7%}
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">AL.BASSEM</div>
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<div class="hero" id="home">
+<div class="hero-content">
+<div class="tag">SOFTWARE & TECHNOLOGY</div>
+<h1>Building The <span>Future</span> With Technology.</h1>
+<p>
+We create innovative software solutions and modern digital
+experiences that help businesses grow and succeed.
+</p>
+<a href="#services" class="btn">Explore Our Services</a>
+</div>
+</div>
+
+<section id="services">
+<div class="heading">
+<h2>Our Services</h2>
+<p>Technology solutions for a smarter future.</p>
+</div>
+<div class="services">
+<div class="card">
+<h3>Software Development</h3>
+<p>Custom software solutions designed for modern businesses.</p>
+</div>
+<div class="card">
+<h3>Web Development</h3>
+<p>Modern and responsive websites with professional design.</p>
+</div>
+<div class="card">
+<h3>Mobile Applications</h3>
+<p>Innovative mobile applications for Android platforms.</p>
+</div>
+<div class="card">
+<h3>Business Solutions</h3>
+<p>Smart systems to improve business operations and management.</p>
+</div>
+</div>
+</section>
+
+<section class="about" id="about">
+<div class="heading">
+<h2>About AL.BASSEM</h2>
+<p>
+We are a software and technology company focused on
+creating digital solutions and building a better future.
+</p>
+</div>
+</section>
+
+<section id="contact">
+<div class="heading">
+<h2>Contact Us</h2>
+<p>Let's build something great together.</p>
+</div>
+</section>
+
+<footer id="contact">
+© 2026 AL.BASSEM. All Rights Reserved.
+</footer>
+
+</body>
+</html>
